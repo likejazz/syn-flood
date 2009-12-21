@@ -163,9 +163,7 @@ int main(int argc, char **argv)
 
         sin.sin_family = AF_INET;
         sin.sin_port = htons (d_port);
-
         sin.sin_addr.s_addr = d_addr;
-
 
 		int one = 1;
 		const int *val = &one;
